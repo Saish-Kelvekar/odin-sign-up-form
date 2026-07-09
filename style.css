@@ -1,0 +1,41 @@
+.imgpart{
+    position:relative;
+    width:45vw;
+    height: 100vh;
+}
+
+.logo{
+    padding: 25px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+    top:100px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+.fontlogo{
+    color:white;
+    font-family:"Norse",serif;
+    font-size: 150px;
+    margin:0;
+    
+}
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norsebold.otf") format("opentype");
+}
+.mainimg{
+    width:100%;
+    height: 100vh;
+}
+.credit{
+    color:black;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left:350px;
+}
