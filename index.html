@@ -30,7 +30,7 @@
             </div>
             <div class="formto">
                 <p class="parabold">Let's do this!</p>
-                <form action="#">
+                <form action="#" id="signupform">
                 <div class="formto1">
                     
                         <div class="fill">
@@ -48,7 +48,7 @@
                         </div>
                         <div class="fill">
                             <label for="phno">PHONE NUMBER</label>
-                            <input type="tel" name="phoneno" id="phno" required>
+                            <input type="tel" name="phoneno" id="phno" required minlength="11">
                         </div>
                         <div class="fill" id="pass1">
                             <label for="pass">PASSWORD</label>
@@ -61,6 +61,14 @@
                     
                 </div>
                 </form>
+            </div>
+
+            <div class="div3">
+                <button type="submit" form="signupform">Create Account</button>
+                <div class="login">
+                    <p>Already have an account?</p>
+                    <a href="#">Log in</a>
+                </div>
             </div>
         </div>
     </div>
